@@ -1,12 +1,22 @@
 html {
+    /* color */
     --nav-bg:rgb(19, 18, 18);
     --nav-link-hover:#555;
-    --primary-color:rgb(255,255,255);
+    --primary-txt-color:rgb(255, 255, 255);
+    --secondary-txt-color:rgb(97, 91, 91);
     --button-bg:#30d5c8;
+
+    /* font size */
+    --header2:2rem;
+    --header3:1.6rem;
+    --primary-txt-size:1.4rem;
+    --secondary-txt-size:1.3rem;
+
     font-family: 'Poppins', sans-serif;
 }
 
 /* Navigation section */
+
 .nav {
     min-height: 80px;
     display: flex;
@@ -30,10 +40,10 @@ html {
 
 .nav__link {
     display: block;
-    color: var(--primary-color);
+    color: var(--primary-txt-color);
     padding: 1rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: var(--primary-txt-size);
 }
 
 .nav__link:hover {
@@ -46,7 +56,7 @@ html {
     width:38px;
     height:35px;
     border:0px;
-    border-top: 3px solid var(--primary-color);
+    border-top: 3px solid var(--primary-txt-color);
     background:transparent;
     position: relative;
     transition: 0.3s transform linear;
@@ -59,7 +69,7 @@ html {
     top:0;
     left:0;
     width: 100%;
-    border-top: 3px solid var(--primary-color);
+    border-top: 3px solid var(--primary-txt-color);
     transform: translateY(11px);
 }
 
@@ -88,7 +98,7 @@ html {
 
 .hero__head {
     display: flex;
-    color:var(--primary-color)
+    color:var(--primary-txt-color)
 }
 
 .hero__button {
@@ -96,10 +106,63 @@ html {
     height: 100%;
     border-radius: 10px;
     background-color:var(--button-bg);
-    color:var(--primary-color);
+    color:var(--primary-txt-color);
 }
 
 .hero__img {
     display: flex;
 }
 
+/* Features section */
+
+.features {
+    min-height: 50vh;
+    display: flex;
+    margin:2rem 0 4rem 0;
+}
+
+.features__head {
+    padding:2rem 0;
+}
+
+.features__container {
+    display: flex;
+}
+
+.features__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.features__img img {
+    display:block;
+    margin:0 auto;
+    height: 100%;
+    width: 50%;
+}
+
+.features__bg1 {
+    background-color:#2D96F9;
+}
+
+.features__bg2 {
+    background-color:#FD9A5E;
+}
+
+.features__bg3 {
+    background-color:#37EF8D;
+}
+
+.features__text {
+    align-self: center;
+    padding:2rem;
+    color:var(--secondary-txt-color);
+
+} 
