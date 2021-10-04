@@ -104,9 +104,10 @@ html {
 .hero__button {
     border:none;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 13px;
     background-color:var(--button-bg);
     color:var(--primary-txt-color);
+    letter-spacing: 2px;
 }
 
 .hero__img {
@@ -118,7 +119,7 @@ html {
 .features {
     min-height: 50vh;
     display: flex;
-    margin:2rem 0 4rem 0;
+    margin:2rem 0;
 }
 
 .features__head {
@@ -167,3 +168,11 @@ html {
 }
 
 /* About section */
+
+.about {
+    display:flex;
+}
+
+.about__head {
+    display: flex;
+}
