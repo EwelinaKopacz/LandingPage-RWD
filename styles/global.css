@@ -176,3 +176,12 @@ html {
 .about__head {
     display: flex;
 }
+
+.about__text {
+    color:var(--secondary-txt-color);
+}
+
+.about__img{
+    align-self: center;
+}
+
