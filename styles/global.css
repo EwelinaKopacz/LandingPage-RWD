@@ -9,9 +9,8 @@ html {
     /* font size */
     --header2:2rem;
     --header3:1.6rem;
-    --primary-txt-size:1.4rem;
-    --secondary-txt-size:1.3rem;
-
+    --primary-txt-size:1.5rem;
+    --secondary-txt-size:1.4rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -103,7 +102,7 @@ html {
 
 .hero__button {
     border:none;
-    height: 100%;
+    height: 75px;
     border-radius: 13px;
     background-color:var(--button-bg);
     color:var(--primary-txt-color);
@@ -185,3 +184,8 @@ html {
     align-self: center;
 }
 
+/* Review section */
+
+.fa-star {
+    color:rgb(253, 216, 4);
+}
