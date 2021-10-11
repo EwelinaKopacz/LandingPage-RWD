@@ -88,12 +88,8 @@
     font-size: var(--header2);
     text-align: center;
 }
-.features__container {
-    flex-direction: column;
 
-}
-
-.features__box {
+.features__box, .features__container {
     flex-direction: column;
 }
 
@@ -128,3 +124,11 @@
 }
 
 /* Review section */
+
+.review__title {
+    font-size: var(--header2);
+}
+
+.review__text {
+    font-size: var(--secondary-txt-size);
+}
