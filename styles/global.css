@@ -11,6 +11,7 @@ html {
     --header3:1.6rem;
     --primary-txt-size:1.5rem;
     --secondary-txt-size:1.4rem;
+    --third-txt-size:1.2rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -182,11 +183,14 @@ html {
 
 .about__img{
     align-self: center;
+
 }
 
 /* Review section */
 
 .review {
+    width: 100%;
+    min-height: 45vh;
     margin-top: 4rem;
     background-image: url('../images/banner/testmonial.png');
     background-repeat: no-repeat;
@@ -209,8 +213,6 @@ html {
 }
 
 .review__container {
-    width: 100%;
-    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -228,7 +230,7 @@ html {
 }
 
 .review__title {
-    padding:1.5rem 0;
+    padding:2rem 0 1.5rem 0;
     text-align: center;
     color:var(--primary-txt-color);
 }
@@ -243,7 +245,6 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     padding:1.3rem 0 2rem 0;
@@ -257,6 +258,22 @@ html {
 
 /* Price section */
 
+.price__container {
+    display: flex;
+    margin: 2rem auto; 
+}
+.price__head {
+    margin-bottom: 2rem;
+}
+
+.price__title {
+    text-align: center;
+}
+
+.price__wrapper{
+    display: flex;
+}
+
 .box {
     border: 2px black solid;
-}
+} 
