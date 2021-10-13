@@ -29,6 +29,7 @@
 }
 
 /* Hero section */
+
 .hero{
     position: relative;
 }
@@ -135,32 +136,3 @@
 
 /* Price section */
 
-.price {
-    min-height: 80vh;
-    width: auto;
-}
-
-.price__container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.price__wrapper{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.price__title{
-    font-size: var(--header2);
-    letter-spacing: 1.3px;
-    padding:.5rem;
-}
-
-.price__text{
-    text-align: center;
-    font-size: var(--third-txt-size);
-    padding:.5rem;
-    color:var(--secondary-txt-color);
-}
