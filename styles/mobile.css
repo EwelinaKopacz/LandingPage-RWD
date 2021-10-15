@@ -190,6 +190,21 @@
 
 /* Ads section */
 
+.ads{
+    min-height: 40vh;
+    margin: 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ads__title {
     font-size: var(--header2);
+}
+
+.ads__images {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 .5rem 2rem .5rem;
+    gap: 7px;
 }

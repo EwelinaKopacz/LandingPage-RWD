@@ -360,12 +360,7 @@ html {
 /* Ads section */
 
 .ads {
-    min-height: 40vh;
-    margin: 2rem 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: url('../images/banner/product.png');
     background-origin: 50% 50%;
 }
@@ -379,9 +374,5 @@ html {
 
 .ads__images {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 .5rem 2rem .5rem;
-    gap: 7px;
-    
 }
+
