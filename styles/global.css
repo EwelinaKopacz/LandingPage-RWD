@@ -273,7 +273,6 @@ html {
 
 .price__title {
     text-align: center;
-    font-size: var(--header2);
     letter-spacing: 2px;
     padding: 1rem 0;
 }
@@ -282,24 +281,15 @@ html {
     text-align: center;
     padding-top: 1rem;
     color: var(--secondary-txt-color);
-    font-size: var(--third-txt-size);
-
+    font-size: var(--secondary-txt-size);
 }
 
 .price__wrapper{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:20px 0;
 }
 
 .price__box {
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 450px;
-    margin: 30px;    
-    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
 .box__head{
@@ -308,12 +298,7 @@ html {
     align-items: center;
     padding:1.4rem;
     height: 80px;
-}
-
-.box__name, .box__value {
-    font-size:var(--secondary-txt-size);
-    font-weight: 500;
-    letter-spacing: 1.2px;
+    min-width: 240px;
 }
 
 .box__value1{
@@ -328,24 +313,19 @@ html {
     color:#01D363
 }
 
-
 .box__list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(420px - 130px);
 }
 
 .box__point {
     padding:.8rem 0;
-    font-size: var(--third-txt-size);
     letter-spacing: .8px;
 }
 
 .box__button{
-    height: 50px;
-    width: 30%;
     align-self: center;
     border: none;
     margin:1.5rem 0;
@@ -356,6 +336,7 @@ html {
     font-size:var(--box-btn-size);
     font-weight: 400;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .box__button:hover{
@@ -373,4 +354,34 @@ html {
 
 .box__card3{
     background-color: #E8FCF1;
+}
+
+
+/* Ads section */
+
+.ads {
+    min-height: 40vh;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/banner/product.png');
+    background-origin: 50% 50%;
+}
+
+
+.ads__title {
+    color:var(--primary-txt-color);
+    text-align: center;
+    padding:2rem .5rem;
+}
+
+.ads__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 .5rem 2rem .5rem;
+    gap: 7px;
+    
 }

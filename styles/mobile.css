@@ -136,3 +136,60 @@
 
 /* Price section */
 
+.price__title {
+    font-size: var(--header2);
+}
+
+.price__text{
+    font-size: var(--secondary-txt-size);
+}
+
+.price__wrapper{
+    flex-direction: column;
+    align-items: center;
+    margin:20px 0;
+}
+
+.price__box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 240px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.box__name, .box__value {
+    font-size:var(--secondary-txt-size);
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.box__name{
+    min-width: 110px;
+}
+
+.box__value {
+    min-width: 60px;
+}
+
+.box__list {
+    height: calc(420px - 130px);
+}
+
+.box__point {
+    font-size: var(--third-txt-size)
+}
+
+.box__button{
+    height: 50px;
+    width: 30%;
+    min-width: 100px;
+}
+
+/* Ads section */
+
+.ads__title {
+    font-size: var(--header2);
+}
