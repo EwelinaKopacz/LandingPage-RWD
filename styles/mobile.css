@@ -192,7 +192,7 @@
 
 .ads{
     min-height: 40vh;
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -208,3 +208,4 @@
     margin: 0 .5rem 2rem .5rem;
     gap: 7px;
 }
+/* Footer section */

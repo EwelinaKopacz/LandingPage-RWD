@@ -6,6 +6,7 @@ html {
     --secondary-txt-color:rgb(97, 91, 91);
     --button-bg:#30d5c8;
     --button-bg-price:rgb(34, 121, 179);
+    --footer-bg:rgb(19, 18, 18);
 
     /* font size */
     --header2:2rem;
@@ -363,6 +364,7 @@ html {
     display: flex;
     background: url('../images/banner/product.png');
     background-origin: 50% 50%;
+    background-size: cover;
 }
 
 
@@ -376,3 +378,29 @@ html {
     display: flex;
 }
 
+/* Footer section */
+.footer{
+    min-height: 80vh;
+    background-color: var(--footer-bg);
+    color: var(--primary-txt-color);
+}
+
+.fab {
+    color:rgb(255, 255, 255);
+}
+
+.footer__info{
+    border: 3px solid red;
+}
+
+.footer__menu{
+    border: 3px solid green;
+}
+
+.footer__links{
+    border: 3px solid blue;
+}
+
+.footer__apps{
+    border: 3px solid pink;
+}
