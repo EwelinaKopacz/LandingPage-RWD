@@ -1,20 +1,24 @@
 html {
     /* color */
-    --nav-bg:rgb(19, 18, 18);
+    --nav-bg:rgb(43, 41, 41);
     --nav-link-hover:#555;
     --primary-txt-color:rgb(255, 255, 255);
     --secondary-txt-color:rgb(97, 91, 91);
     --button-bg:#30d5c8;
     --button-bg-price:rgb(34, 121, 179);
-    --footer-bg:rgb(19, 18, 18);
+    --footer-bg:rgb(43, 41, 41);
+    --footer-font:rgb(255, 255, 255);
+    --footer-copyrights:rgb(0, 0, 0);
 
     /* font size */
     --header2:2rem;
     --header3:1.6rem;
+    --header4:1.4rem;
     --primary-txt-size:1.5rem;
     --secondary-txt-size:1.4rem;
     --third-txt-size:1.2rem;
     --box-btn-size:1.3rem;
+    --footer-links:.9rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -106,11 +110,15 @@ html {
 
 .hero__button {
     border:none;
-    height: 75px;
-    border-radius: 13px;
+    min-height: 65px;
+    width: auto;
+    border-radius: 50px;
     background-color:var(--button-bg);
     color:var(--primary-txt-color);
     letter-spacing: 2px;
+}
+.hero__button:hover {
+    background-color:var(--nav-link-hover);
 }
 
 .hero__img {
@@ -382,14 +390,58 @@ html {
 .footer{
     min-height: 80vh;
     background-color: var(--footer-bg);
-    color: var(--primary-txt-color);
+}
+
+.footer__container{
+    margin:0 20px;
+    padding:60px 0;
 }
 
 .fab {
     color:rgb(255, 255, 255);
+    font-size: 45px;
 }
 
-.footer__info{
+.footer__social {
+    display: flex;
+}
+
+.footer__headings{
+    font-size: var(--header4);
+    padding:1rem 0 .5rem 0;
+    color:var(--footer-font);
+    letter-spacing: .4px;
+
+}
+
+.footer__items, .footer__text{
+    font-size: var(--footer-links);
+    padding:.5rem 0;
+    color:var(--footer-font);
+}
+
+.footer__list {
+    cursor: pointer;
+}
+
+.footer__copyrights {
+    min-height: 80px;
+    width: 100%;
+    background-color:var(--footer-copyrights);
+}
+
+.footer__copytext {
+    display: block;
+    margin:0 auto;
+    height: auto;
+    width: 80%;
+    color:var(--footer-font);
+    font-size: var(--footer-links);
+    text-align: center;
+    padding:40px 0;
+}
+
+/* .footer__info{
     border: 3px solid red;
 }
 
@@ -398,9 +450,9 @@ html {
 }
 
 .footer__links{
-    border: 3px solid blue;
+    border: 3px solid yellow;
 }
 
 .footer__apps{
     border: 3px solid pink;
-}
+} */

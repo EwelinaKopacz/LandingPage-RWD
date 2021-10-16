@@ -209,3 +209,10 @@
     gap: 7px;
 }
 /* Footer section */
+
+.footer__social {
+    justify-content: flex-start;
+    gap:12px;
+    padding:1rem 0;
+    flex-wrap: wrap;
+}
