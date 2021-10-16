@@ -34,7 +34,10 @@ html {
 }
 
 .nav__logo {
-    margin:1rem;
+    height: auto;
+    min-width: 100px;
+    display: block;
+    padding:1.3rem 1.6rem;
 }
 
 .nav__menu {
@@ -387,6 +390,7 @@ html {
 }
 
 /* Footer section */
+
 .footer{
     min-height: 80vh;
     background-color: var(--footer-bg);
@@ -394,7 +398,7 @@ html {
 
 .footer__container{
     margin:0 20px;
-    padding:60px 0;
+    padding:1.6rem 0;
 }
 
 .fab {
@@ -408,10 +412,9 @@ html {
 
 .footer__headings{
     font-size: var(--header4);
-    padding:1rem 0 .5rem 0;
+    padding:2.5rem 0 .5rem 0;
     color:var(--footer-font);
     letter-spacing: .4px;
-
 }
 
 .footer__items, .footer__text{

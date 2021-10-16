@@ -12,9 +12,9 @@
 .nav__hamburger {
     display: block;
     position: absolute;
-    top:1.2rem;
-    bottom:1.2rem;
-    right:1rem;
+    top:1.3rem;
+    bottom:1.3rem;
+    right:1.6rem;
 }
 
 .nav__hamburger:focus +.nav__menu {
