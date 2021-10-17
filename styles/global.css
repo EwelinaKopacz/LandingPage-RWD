@@ -40,9 +40,9 @@ html {
     padding:1.3rem 1.6rem;
 }
 
-.nav__menu {
+/* .nav__menu {
     height: 100vh;
-}
+} */
 
 .nav__list {
     display: flex;
@@ -100,10 +100,9 @@ html {
 /* Hero section */
 
 .hero {
-    min-height: calc(100vh - 80px);
     background-image: url("../images/banner/banner.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .hero__head {
@@ -136,17 +135,12 @@ html {
     margin: 2rem 0;
 }
 
-.features__head {
-    padding:2rem 0;
-}
-
 .features__container {
     display: flex;
 }
 
 .features__box {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -197,13 +191,17 @@ html {
 
 .about__img{
     align-self: center;
+    padding:0 1.3rem;
 
 }
 
 /* Review section */
 
 .review {
-    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
     margin-top: 4rem;
     background-image: url('../images/banner/testmonial.png');
     background-repeat: no-repeat;
@@ -226,11 +224,8 @@ html {
 }
 
 .review__container {
-    min-height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .fa-star {
@@ -244,13 +239,13 @@ html {
 }
 
 .review__title {
-    padding: 2rem 0 1.5rem 0;
+    padding: 1.8rem;
     text-align: center;
     color:var(--primary-txt-color);
 }
 
 .review__text {
-    padding:1rem;
+    padding:1.5rem;
     text-align: center;
     color:var(--primary-txt-color);
 }
@@ -274,7 +269,9 @@ html {
 /* Price section */
 
 .price {
-    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .price__head {
@@ -309,9 +306,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1.4rem;
-    height: 80px;
-    min-width: 240px;
 }
 
 .box__value1{
@@ -333,15 +327,9 @@ html {
     justify-content: center;
 }
 
-.box__point {
-    padding:.8rem 0;
-    letter-spacing: .8px;
-}
-
 .box__button{
     align-self: center;
     border: none;
-    margin:1.5rem 0;
     color:var(--button-bg-price);
     background-color: transparent;
     border: 1.5px solid var(--button-bg-price);
@@ -383,8 +371,6 @@ html {
 
 .ads__title {
     color:var(--primary-txt-color);
-    text-align: center;
-    padding:2rem .5rem;
 }
 
 .ads__images {
@@ -410,6 +396,10 @@ html {
 
 .footer__social {
     display: flex;
+}
+
+.footer__img {
+    padding-top:2.5rem;
 }
 
 .footer__headings{

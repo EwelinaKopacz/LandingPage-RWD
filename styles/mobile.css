@@ -24,8 +24,7 @@
 .nav__list {
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
 }
 
 .nav__item {
@@ -36,6 +35,7 @@
 
 .hero{
     position: relative;
+    min-height: calc(100vh - 80px);
 }
 .hero::after{
     content:'';
@@ -63,7 +63,7 @@
 
 .hero__text {
     font-size: var(--secondary-txt-size);
-    margin-bottom: .5rem;
+    padding-bottom:.5rem;
 }
 
 .hero__button {
@@ -85,8 +85,12 @@
 
 .features{
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start
+}
+
+.features__head {
+    padding:2rem 0;
 }
 
 .features__title {
@@ -140,6 +144,10 @@
 
 /* Price section */
 
+.price {
+    min-height: 90vh;
+}
+
 .price__title {
     font-size: var(--header2);
 }
@@ -159,9 +167,15 @@
     flex-direction: column;
     width: 90%;
     min-width: 240px;
-    height: 450px;
+    height: auto;
     margin: 30px;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.box__head{
+    padding:1.4rem;
+    height: 80px;
+    min-width: 240px;
 }
 
 .box__name, .box__value {
@@ -179,23 +193,27 @@
 }
 
 .box__list {
-    height: calc(420px - 130px);
+    height: auto;
+    padding:.7rem;
 }
 
 .box__point {
-    font-size: var(--third-txt-size)
+    font-size: var(--third-txt-size);
+    padding:1rem 0;
+    letter-spacing: .5px;
 }
 
 .box__button{
     height: 50px;
     width: 30%;
     min-width: 100px;
+    margin:2.5rem 0;
 }
 
 /* Ads section */
 
 .ads{
-    margin: 2rem 0 0 0;
+    /* margin: 2rem 0 0 0; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -203,6 +221,8 @@
 
 .ads__title {
     font-size: var(--header2);
+    text-align: center;
+    padding:2rem .5rem;
 }
 
 .ads__images {
