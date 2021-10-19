@@ -24,6 +24,12 @@ html {
 
 /* Navigation section */
 
+.scroll {
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+
 .nav {
     min-height: 80px;
     display: flex;
@@ -102,7 +108,6 @@ html {
 .hero {
     background-image: url("../images/banner/banner.png");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
 }
 
 .hero__head {
@@ -204,8 +209,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
-    margin-top: 4rem;
     background-image: url('../images/banner/testmonial.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
