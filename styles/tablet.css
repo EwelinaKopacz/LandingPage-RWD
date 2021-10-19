@@ -65,7 +65,8 @@
 
 .price {
     min-height: 70vh;
-    margin: 0 auto;
+    margin-bottom:100px;
+    margin-top:calc(100px - 36px);
 }
 
 .price__wrapper {
