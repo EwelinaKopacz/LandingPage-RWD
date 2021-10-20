@@ -1,36 +1,185 @@
 /* Navigation section */
 
+.nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-image: url('../images/banner/banner.png'); /*chyba nie o ten sposób chodziło, bg image powinien by jeden od nav do hero ale nie wiem jak to zrobić*/
+    background-position: 50% 50%; 
+}
 
+.nav__menu {
+    display: flex;
+}
+
+.nav__list {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav__hamburger {
+    display: none;
+}
+
+.nav__cta {
+    display: block;
+    padding:1.3rem 1.6rem;
+}
+
+.nav__cta--active {
+    border:none;
+    font-size: var(--download-btn);
+    padding: 1rem 1.5rem;
+    letter-spacing: .5px;
+    background:var(--download-btn-color);
+    color: var(--primary-txt-color);
+    border-radius: 7px;
+}
+
+.nav__link:hover {
+    background-color:var(--nav-link-hover-desktop);
+}
 
 
 /* Hero section */
 
+.hero {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    background-size: 100% 85%;
+}
 
+.hero__head, .hero__img {
+    padding: 3rem;
+    padding-top: 7rem;
+}
 
+.hero__head {
+    justify-content: flex-start;
+
+    flex-basis: 50%;
+}
+
+.hero__img {
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
 
 /* Features section */
 
+.features {
+    margin: 5rem 0;
+}
 
+.features__container {
+    flex-direction: row;
+    padding-top:2rem;
+}
 
+.features__head {
+    padding:3rem 0;
+}
 
 /* About section */
 
+.about {
+    flex-direction: row;
+}
 
+.about__head, .about__img{
+    flex: 50% 1 1;
+}
 
+.about__head {
+    padding: 3rem;
+}
 
 /* Review section */
 
-
+.review {
+    min-height: 60vh;
+}
 
 
 /* Price section */
 
+.price {
+    min-height: 70vh;
+    margin-bottom:100px;
+    margin-top:calc(100px - 36px);
+}
 
+.price__wrapper {
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin:0 auto;
+}
+
+.price__box {
+    margin: 0;
+    min-width: auto;
+    height: 550px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 9px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.box2 {
+    height: 600px;
+}
+
+.box__head {
+    min-width: auto;
+}
+
+.box__button{
+    width: 60%;
+    margin: 2.5rem 0;
+}
+.box__list{
+    padding:.5rem;
+}
+
+.box__point {
+    padding:1.3rem 0;
+    white-space: nowrap;
+}
+
+.price__text{
+    padding-bottom: 1.3rem;
+}
 
 
 /* Ads section */
 
+.ads {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ads__head, .ads__images {
+    padding:2rem 3rem 2rem;
+}
+
+.ads__title {
+    text-align: left;
+}
 
 
 
 /* Footer section */
+
+.footer {
+    min-height: 50vh;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 40% repeat(3, 20%);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "info menu links apps";
+    column-gap: 20px;
+    padding:3rem 6rem 3rem 2rem;
+}

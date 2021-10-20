@@ -3,9 +3,10 @@
 .nav {
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--nav-bg);
 }
 
-.nav__menu {
+.nav__menu, .nav__cta {
     display: none;
 }
 
@@ -29,6 +30,10 @@
 
 .nav__item {
     padding:.5rem 0;
+}
+
+.nav__link:hover {
+    background-color:var(--nav-link-hover);
 }
 
 /* Hero section */

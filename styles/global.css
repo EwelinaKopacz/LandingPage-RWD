@@ -9,6 +9,8 @@ html {
     --footer-bg:rgb(43, 41, 41);
     --footer-font:rgb(255, 255, 255);
     --footer-copyrights:rgb(0, 0, 0);
+    --download-btn-color:#42B4FA;
+    --nav-link-hover-desktop:#42B4FA;
 
     /* font size */
     --header2:2rem;
@@ -19,6 +21,7 @@ html {
     --third-txt-size:1.2rem;
     --box-btn-size:1.3rem;
     --footer-links:.9rem;
+    --download-btn:1.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -36,7 +39,6 @@ html {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--nav-bg);
 }
 
 .nav__logo {
@@ -62,9 +64,7 @@ html {
     font-size: var(--primary-txt-size);
 }
 
-.nav__link:hover {
-    background-color:var(--nav-link-hover);
-}
+
 
 /* Hamburger menu */
 
@@ -441,19 +441,3 @@ html {
     text-align: center;
     padding:40px 0;
 }
-
-/* .footer__info{
-    border: 3px solid red;
-}
-
-.footer__menu{
-    border: 3px solid green;
-}
-
-.footer__links{
-    border: 3px solid yellow;
-}
-
-.footer__apps{
-    border: 3px solid pink;
-} */
