@@ -31,7 +31,7 @@
 .nav__cta--active {
     border:1.5px solid rgba(255, 255, 255, .5);
     font-size: var(--nav-text);
-    padding: 1rem 1.5rem;
+    padding: .8rem 1.4rem;
     letter-spacing: 1px;
     background:var(--download-btn-color);
     color: var(--primary-txt-color);
