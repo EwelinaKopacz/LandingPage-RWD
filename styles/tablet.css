@@ -40,8 +40,6 @@
     padding:.7rem 1.5rem;
 }
 
-
-
 /* Features section */
 
 .features {
@@ -115,6 +113,7 @@
     width: 60%;
     margin: 2.5rem 0;
 }
+
 .box__list{
     padding:.5rem;
 }

@@ -124,9 +124,6 @@
     margin-bottom: .3rem;
 }
 
-/* Review section */
-
-
 /* Price section */
 
 .price {
@@ -205,6 +202,7 @@
     margin: 0 .5rem 2rem .5rem;
     gap: 7px;
 }
+
 /* Footer section */
 
 .footer__social {

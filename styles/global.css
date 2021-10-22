@@ -25,6 +25,7 @@ html {
      --point-text:clamp(0.9rem, 4vw, 1.2rem);
      --btn-box:clamp(1.1rem, 4vw, 1.3rem);
      --footer-links:clamp(.9rem, 3vw, 1.1rem);
+     
      font-family: 'Poppins', sans-serif;
      scroll-behavior: smooth;
 }
@@ -68,8 +69,6 @@ html {
     font-size: var(--nav-text);
 }
 
-
-
 /* Hamburger menu */
 
 .nav__hamburger {
@@ -105,7 +104,6 @@ html {
 .nav__hamburger:focus::after{
       transform: rotate(-90deg) translateX(-10px);
 }
-
 
 /* Hero section */
 
