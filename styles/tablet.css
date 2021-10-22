@@ -12,7 +12,7 @@
     display: flex;
     min-height: calc(80vh - 80px);
     background-size: 100% 85%;
-    /* background-attachment: fixed; ciekawy efekt */ 
+    /* background-attachment: fixed; ciekawy efekt */
 }
 
 .hero::after {
@@ -32,6 +32,12 @@
 
 .hero__text {
     padding: .7rem 0;
+}
+
+.hero__button {
+    min-height: 65px;
+    margin: 2.5rem 0;
+    padding:.7rem 1.5rem;
 }
 
 /* Features section */

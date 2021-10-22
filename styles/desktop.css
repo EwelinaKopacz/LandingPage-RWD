@@ -4,9 +4,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
+    height: 60px;
     background-image: url('../images/banner/banner.png'); /*chyba nie o ten sposób chodziło, bg image powinien by jeden od nav do hero ale nie wiem jak to zrobić*/
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
 }
 
 .nav__menu {
@@ -16,6 +16,7 @@
 .nav__list {
     flex-direction: row;
     justify-content: space-evenly;
+    padding:0;
 }
 
 .nav__hamburger {
@@ -29,13 +30,14 @@
 
 .nav__cta--active {
     border:none;
-    font-size: var(--download-btn);
+    font-size: var(--nav-text);
     padding: 1rem 1.5rem;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
     background:var(--download-btn-color);
     color: var(--primary-txt-color);
     border-radius: 7px;
 }
+
 
 .nav__link:hover {
     background-color:var(--nav-link-hover-desktop);
@@ -64,6 +66,12 @@
 .hero__img {
     justify-content: flex-end;
     flex-basis: 50%;
+}
+
+.hero__button {
+    min-height: 65px;
+    margin: 2.5rem 0;
+    padding:.7rem 1.5rem;
 }
 
 /* Features section */
@@ -171,7 +179,7 @@
 /* Footer section */
 
 .footer {
-    min-height: 50vh;
+    min-height: 30vh;
 }
 
 .footer__container {

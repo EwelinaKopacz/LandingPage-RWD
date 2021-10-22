@@ -63,20 +63,17 @@
 }
 
 .hero__title {
-    font-size: var(--header2);
     letter-spacing: 2px;
     margin:2rem 0 1rem 0;
 }
 
 .hero__text {
-    font-size: var(--secondary-txt-size);
     padding-bottom:.5rem;
 }
 
 .hero__button {
     margin: 2.5rem 0;
-    padding:.7rem 2rem;
-    font-size: var(--primary-txt-size);
+    padding:.4rem 1.1rem;
 }
 
 .hero__img {
@@ -100,18 +97,8 @@
     padding:2rem 0;
 }
 
-.features__title {
-    font-size: var(--header2);
-    text-align: center;
-}
-
 .features__box, .features__container {
     flex-direction: column;
-}
-
-.features__text {
-    font-size: var(--header3);
-    text-align: center;
 }
 
 /* About section */
@@ -130,12 +117,10 @@
 }
 
 .about__title{
-    font-size: var(--header2);
     margin-bottom: 1.5rem;
 }
 
 .about__text {
-    font-size: var(--secondary-txt-size);
     margin-bottom: .3rem;
 }
 
@@ -146,26 +131,10 @@
     margin-top: 4rem;
 }
 
-.review__title {
-    font-size: var(--header2);
-}
-
-.review__text {
-    font-size: var(--secondary-txt-size);
-}
-
 /* Price section */
 
 .price {
     min-height: 90vh;
-}
-
-.price__title {
-    font-size: var(--header2);
-}
-
-.price__text{
-    font-size: var(--secondary-txt-size);
 }
 
 .price__wrapper{
@@ -177,8 +146,7 @@
 .price__box {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    min-width: 240px;
+    width:clamp(240px, 90%, 600px);
     height: auto;
     margin: 30px;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
@@ -191,7 +159,6 @@
 }
 
 .box__name, .box__value {
-    font-size:var(--secondary-txt-size);
     font-weight: 500;
     letter-spacing: 1.2px;
 }
@@ -210,7 +177,7 @@
 }
 
 .box__point {
-    font-size: var(--third-txt-size);
+    font-size: var(--point-text);
     padding:1rem 0;
     letter-spacing: .5px;
 }
@@ -232,7 +199,6 @@
 }
 
 .ads__title {
-    font-size: var(--header2);
     text-align: center;
     padding:2rem .5rem;
 }
