@@ -29,13 +29,17 @@
 }
 
 .nav__cta--active {
-    border:none;
+    border:1.5px solid rgba(255, 255, 255, .5);
     font-size: var(--nav-text);
     padding: 1rem 1.5rem;
     letter-spacing: 1px;
     background:var(--download-btn-color);
     color: var(--primary-txt-color);
     border-radius: 7px;
+}
+
+.nav__cta--active:hover {
+    background-color: rgba(10, 10, 10, 0.3);
 }
 
 
@@ -74,6 +78,11 @@
     padding:.7rem 1.5rem;
 }
 
+.hero__picture {
+    width: 80%;
+    margin: auto;
+}
+
 /* Features section */
 
 .features {
@@ -109,6 +118,14 @@
     min-height: 60vh;
 }
 
+.review__text {
+    width: clamp(45ch, 50%, 75ch);
+}
+
+.price__text {
+    width: clamp(45ch, 50%, 75ch);
+    margin:auto
+}
 
 /* Price section */
 
@@ -189,5 +206,5 @@
     grid-template-areas:
     "info menu links apps";
     column-gap: 20px;
-    padding:3rem 6rem 3rem 2rem;
+    padding:3rem 6rem 5.5rem 2rem;
 }

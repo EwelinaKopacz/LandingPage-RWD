@@ -40,6 +40,8 @@
     padding:.7rem 1.5rem;
 }
 
+
+
 /* Features section */
 
 .features {
@@ -73,6 +75,10 @@
 
 .review {
     min-height: 55vh;
+}
+
+.review__text {
+    width: clamp(45ch, 50%, 75ch);
 }
 
 /* Price section */
@@ -120,6 +126,8 @@
 
 .price__text{
     padding-bottom: 1.3rem;
+    width: clamp(45ch, 50%, 75ch);
+    margin:auto
 }
 
 /* Ads section */

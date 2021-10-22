@@ -94,7 +94,7 @@
 }
 
 .features__head {
-    padding:2rem 0;
+    padding:1.6rem;
 }
 
 .features__box, .features__container {
@@ -126,10 +126,6 @@
 
 /* Review section */
 
-.review {
-    min-height: 40vh;
-    margin-top: 4rem;
-}
 
 /* Price section */
 

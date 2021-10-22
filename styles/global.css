@@ -12,19 +12,19 @@ html {
     --download-btn-color:#42B4FA;
     --nav-link-hover-desktop:#42B4FA;
 
-     /* font size clamp */
+     /* font size */
      --header1:clamp(1.8rem, 5vw, 2.7rem);
      --header2:clamp(1.5rem, 5vw, 2.4rem);
-     --header3:clamp(1.2rem, 4vw, 1.7rem);
+     --header3:clamp(1.2rem, 4vw, 1.5rem);
      --header4:clamp(1.2rem, 4vw, 1.5rem);
-     --nav-text:clamp(1rem, 4vw, 1.4rem);
+     --nav-text:clamp(1rem, 4vw, 1.3rem);
      --lead-text:clamp(1.15rem, 4vw, 1.6rem);
      --btn-txt:clamp(1.1rem, 4vw, 1.35rem);
      --body-text:clamp(1rem, 4vw, 1.3rem);
      --sub-text:clamp(1rem, 4vw, 1.2rem);
      --point-text:clamp(0.9rem, 4vw, 1.2rem);
      --btn-box:clamp(1.1rem, 4vw, 1.3rem);
-     --footer-links:clamp(.9rem, 3vw, 1.2rem);
+     --footer-links:clamp(.9rem, 3vw, 1.1rem);
      font-family: 'Poppins', sans-serif;
      scroll-behavior: smooth;
 }
@@ -138,7 +138,7 @@ html {
     letter-spacing: 2px;
     font-size: var(--btn-txt);
 }
-.hero__button:hover {
+.hero__button:hover, .footer__items:hover {
     background-color:var(--nav-link-hover);
 }
 
@@ -241,6 +241,8 @@ html {
     background-size: cover;
     position: relative;
     z-index: 1000;
+    min-height: 40vh;
+    margin-top: 4rem;
 }
 
 .review::after {
@@ -278,10 +280,11 @@ html {
 }
 
 .review__text {
-    padding:1.5rem;
+    align-self: center;
     text-align: center;
     color:var(--primary-txt-color);
     font-size: var(--body-text);
+    padding:1.5rem 2rem;
 }
 
 .review__opinion {
@@ -291,7 +294,7 @@ html {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding:1.3rem 0 2rem 0;
+    padding:1.3rem 1rem 2rem 1rem;
 }
 
 .review__person {
