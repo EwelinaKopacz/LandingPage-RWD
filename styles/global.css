@@ -136,7 +136,7 @@ html {
     letter-spacing: 2px;
     font-size: var(--btn-txt);
 }
-.hero__button:hover, .footer__items:hover {
+.hero__button:hover {
     background-color:var(--nav-link-hover);
 }
 
@@ -463,6 +463,10 @@ html {
     font-size: var(--footer-links);
     padding:.5rem 0;
     color:var(--footer-font);
+}
+
+.footer__items:hover {
+    background-color: rgb(97, 95, 95);
 }
 
 .footer__list {
