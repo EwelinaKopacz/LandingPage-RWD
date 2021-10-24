@@ -118,10 +118,6 @@
     min-height: 60vh;
 }
 
-.review__text {
-    width: clamp(45ch, 50%, 75ch);
-}
-
 .price__text {
     width: clamp(45ch, 50%, 75ch);
     margin:auto
@@ -159,7 +155,6 @@
 
 .box__button{
     width: 60%;
-    margin: 2.5rem 0;
 }
 .box__list{
     padding:.5rem;

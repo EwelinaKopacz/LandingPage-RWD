@@ -18,7 +18,7 @@ Mobile menu is based on HTML and CSS only
 
 ## Links
 
-* Live Site URL: [E.Kopacz Second Project](https://ekopacz-first-project.netlify.app)
+* Live Site URL: [E.Kopacz RWD Project](https://ekopacz-rwd-project.netlify.app)
 
 ## Solutions
 Creating this project I had a opportunity to practice "how to create mobile first website". 
