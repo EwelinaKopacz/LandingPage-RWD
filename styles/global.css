@@ -290,7 +290,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */ /* safari doesn not support gap*/
     flex-wrap: wrap;
     padding:1.3rem 1rem 2rem 1rem;
 }
@@ -299,6 +299,7 @@ html {
     font-size: var(--sub-text);
     text-transform: uppercase;
     color:var(--primary-txt-color);
+    margin-left:10px;
 }
 
 /* Price section */
