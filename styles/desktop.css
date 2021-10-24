@@ -118,6 +118,10 @@
     min-height: 60vh;
 }
 
+.review__text {
+    width: clamp(40ch, 50%, 75ch);
+}
+
 .price__text {
     width: clamp(45ch, 50%, 75ch);
     margin:auto

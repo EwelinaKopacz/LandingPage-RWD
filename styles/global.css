@@ -440,6 +440,7 @@ html {
 .fab {
     color:rgb(255, 255, 255);
     font-size: 45px;
+    margin:0 5px;
 }
 
 .footer__social {
