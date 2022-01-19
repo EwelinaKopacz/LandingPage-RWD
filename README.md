@@ -1,5 +1,7 @@
 # Project HTML & CSS - rwd
 
+## About the project:
+
 My second project from scratch - responsive landing page (mobile first). I used HTML and CSS. 
 The landing page is based on Colorlib project. I defined 3 breakpoints:
 * mobile: max-width: 800px
@@ -21,7 +23,7 @@ Mobile menu is based on HTML and CSS only
 * Live Site URL: [E.Kopacz RWD Project](https://ekopacz-rwd-project.netlify.app)
 
 ## Solutions
-Creating this project I had a opportunity to practice "how to create mobile first website". 
+Creating this project I had an opportunity to practice "how to create mobile first website". 
 I prepared different styles for each breakpoint. 
 I could learned few new CSS properties like:
 
@@ -67,7 +69,6 @@ I created hamburger menu based on the video:
 * https://www.youtube.com/watch?v=Al-0vNJD1JU 
 
 
-
 ### Feel free to contact me:
 
 * [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/)
@@ -85,3 +86,6 @@ Mobile and tablet2
 
 Desktop
 ![Project-preview](./assets/preview/screen4.png)
+
+### Thanks for project and support to Mateusz Bogolubow:
+* Mentor i Trener Programowania JavaScript - [DevMentor](https://devmentor.pl/) - Mateusz Bogolubow
