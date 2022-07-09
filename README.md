@@ -1,7 +1,15 @@
-# Project HTML & CSS - rwd
+# Project HTML & CSS - RWD
 
-## About the project:
+## Table of Contents
+1. [About the project](#about-the-project)
+2. [Technologies](#technologies)
+3. [Links](#links)
+4. [Solutions](#solutions)
+5. [Project preview](#project-preview)
+6. [Contact](#feel-free-to-contact-me)
+7. [Thanks](#thanks-for-project-and-support-to-Mateusz-Bogolubow)
 
+## About the project
 My second project from scratch - responsive landing page (mobile first). I used HTML and CSS. 
 The landing page is based on Colorlib project. I defined 3 breakpoints:
 * mobile: max-width: 800px
@@ -11,7 +19,6 @@ The landing page is based on Colorlib project. I defined 3 breakpoints:
 Mobile menu is based on HTML and CSS only
 
 ## Technologies:
-
 * HTML5
 * CSS3
 * BEM
@@ -19,7 +26,6 @@ Mobile menu is based on HTML and CSS only
 * GRID
 
 ## Links
-
 * Live Site URL: [E.Kopacz RWD Project](https://ekopacz-rwd-project.netlify.app)
 
 ## Solutions
@@ -69,12 +75,7 @@ I created hamburger menu based on the video:
 * https://www.youtube.com/watch?v=Al-0vNJD1JU 
 
 
-### Feel free to contact me:
-
-* [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/)
-
 ### Project preview
-
 Mobile
 ![Project-preview](./assets/preview/screen1.png)
 
@@ -86,6 +87,11 @@ Mobile and tablet2
 
 Desktop
 ![Project-preview](./assets/preview/screen4.png)
+
+
+### Feel free to contact me:
+* [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/)
+
 
 ### Thanks for project and support to Mateusz Bogolubow:
 * Mentor i Trener Programowania JavaScript - [DevMentor](https://devmentor.pl/) - Mateusz Bogolubow
